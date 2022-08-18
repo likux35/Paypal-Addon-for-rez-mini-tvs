@@ -137,7 +137,7 @@ switch($orderPrice) // nieko nekeiciam
 ```
 
 - Pasikeičiam nuorodas kur yra saimon.lt į savo puslapio.
-- Dėmesio ! Privilegijų trukmė imama iš jūsų bazės nustatytos su MINI TVS.
+- Dėmesio ! Privilegijų trukmė naudojama iš jūsų bazės nustatytos su MINI TVS.
 - Paypal nuoroda : http://jusupuslapis.lt/sms/index.php?p=uzs-paypal
 
 
