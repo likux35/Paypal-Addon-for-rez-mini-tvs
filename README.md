@@ -84,6 +84,14 @@ switch($_POST['privs']) // nieko neikeiciam
 <option value="7" > SADMIN - 3.50€ / 2 months</option>
 <option value="8" > SADMIN - 4.50€ / 3 months</option>
 ```
+- Nurodom duomenis:
+```sh
+$paypal_url = 'https://www.paypal.com/cgi-bin/webscr'; // paypal url, keisti nereikia
+$merchant_email = 'starkus.lukas@inbox.lt'; // Jusu el. pasto adresas
+$cancel_return = "https://".$_SERVER['HTTP_HOST'].'/sms/index.php?p=uzs-paypal'; // atgaline nuoroda atsaukus apmokejima
+$success_return = "https://".$_SERVER['HTTP_HOST'].'/sms/paypal/success.php'; // nuoroda atlikus apmokejima
+```
+$notify_url = "https://".$_SERVER['HTTP_HOST'].'/sms/paypal/ipn.php';
 - Grįžtam atgal ir įkeliame paypal aplanką.
 - Atsidarom success.php (ipn.php keisti nereikia)
 - Keičiam:
